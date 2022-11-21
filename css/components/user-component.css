@@ -1,8 +1,7 @@
 .user-component {
   display: flex;
-}
-.user-component {
   justify-content: space-between;
+  margin: 10px 0px;
 }
 
 .user-component,
@@ -52,4 +51,21 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+.user-component__contact {
+  display: flex;
+  align-items: center;
+}
+
+.highlight-icon {
+  color: tomato;
+  font-size: 12px;
+  border: 1px solid tomato;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 5px;
 }

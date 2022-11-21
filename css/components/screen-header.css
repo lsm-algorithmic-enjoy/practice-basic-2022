@@ -27,3 +27,18 @@
 .screen-header__icons .fa-cog:hover {
   animation: rotateCog 1s linear infinite;
 }
+
+.screen-header-i {
+  position: relative;
+}
+
+.screen-header__more {
+  background-color: tomato;
+  width: 10px;
+  height: 10px;
+  border-radius: 15px;
+  display: block;
+  position: absolute;
+  right: -10px;
+  top: -10px;
+}
